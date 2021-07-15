@@ -1,0 +1,147 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : ٠٨‏/٠٧‏/٢٠٢١, ٦:٣٧:٢٥ م
+    Author     : somy969
+*/
+
+img{
+ 
+  border: none;
+  transition-duration: 0.4s;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+   
+    
+}
+
+img:hover {background-color:dodgerblue}
+h1 {
+  text-align: center;
+  text-shadow: 2px 2px 5px navajowhite;
+  background-color:cornflowerblue;
+}
+
+
+body{
+    background-color:white;
+}
+.robotimg{
+    height: 637px;
+    width: 350px;
+    position:absolute;
+    bottom: 0px;
+    right: 10px;
+}
+#Stop{
+    height: 100px;
+    width: 100px;
+    position:inherit;
+    top:260px;
+    right: 640px;
+    display: block;
+}
+.StopBtn{ 
+    height: 100px;
+    width: 100px;
+    top:260px;
+    right: 640px;
+    display: block;
+    position:fixed;
+    border: none;
+    color: navajowhite;
+    background-color:crimson;
+}
+button:hover {background-color:dodgerblue;}
+
+#Right{
+    height: 100px;
+    width: 100px;
+    position: inherit;
+    top:260px;
+    right: 530px;
+    display: block;
+}
+.RightBtn{
+    height: 100px;
+    width: 100px;
+    position: fixed;
+    top:260px;
+    right: 530px;
+    display: block;
+    border: none;
+}
+#Left{
+    height: 100px;
+    width: 100px;
+    position: inherit;
+    top:260px;
+    left:520px;
+    display: block;
+}
+.LeftBtn{
+    height: 100px;
+    width: 100px;
+    position: fixed;
+    top:260px;
+    left:520px;
+    display: block;
+    border: none;
+}
+#Forward{
+    height: 100px;
+    width: 100px;
+    position: inherit;
+    top:150px;
+    right: 640px;
+    display: block;
+}
+.ForwardBtn{
+    height: 100px;
+    width: 100px;
+    position: fixed;
+    top:150px;
+    right: 640px;
+    display: block;
+    border: none;
+}
+#Backward{
+    height: 100px;
+    width: 100px;
+    position:inherit;
+    top:370px;
+    right: 640px;
+    display: block;
+}
+.BackwardBtn{
+    height: 100px;
+    width: 100px;
+    position:fixed;
+    top:370px;
+    right: 640px;
+    display: block;
+    border: none;
+}
+#Right:hover{
+    box-shadow:0px 0px  5px 3px black;
+}
+#Left:hover{
+    box-shadow:0px 0px  5px 3px black;
+}
+#Backward:hover{
+    box-shadow:0px 0px  5px 3px black;
+}
+#Forward:hover{
+    box-shadow:0px 0px  5px 3px black;
+}
+#Stop:hover{
+    box-shadow:0px 0px  5px 3px black;
+}
+
+
+.hover-shadow:hover {
+  
+  box-shadow:3px 3px  4px crimson;
+}
